@@ -236,14 +236,13 @@ body {
     position: absolute;
     font-size: 26px;
     font-weight: 550;
-    padding: 20px;
-    right: 50px;
+    right: 40px;
     top: 266px;
     border-radius: 8px;
     width: 275px;
     margin-top: 4px;
     margin-right: -80px;
-    padding: 2px;
+    padding: 20px;
     box-shadow: 0 18px 25px 0 rgb(237, 153, 6), 0 6px 20px 0 rgb(217, 0, 255);
     border-radius: 8px;
     
