@@ -230,7 +230,7 @@ body {
     color: rgb(149, 49, 243);
     font-family: cursive;
     font-weight: 600;
-    position: fixed;
+    position: absolute;
     right: 50px;
     top: 266px;
     border-radius: 8px;
@@ -239,6 +239,7 @@ body {
     padding: 2px;
     box-shadow: 0 18px 25px 0 rgb(237, 153, 6), 0 6px 20px 0 rgb(217, 0, 255);
     border-radius: 8px;
+    text-align: center;
   }
 
   .orsted {
