@@ -33,7 +33,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
 }
 .test-background {
     background-color: rgba(248, 207, 157, 0.9);
@@ -220,7 +220,7 @@ body {
   .events {
     width: 280px;
     border-radius: 8px;
-    position: fixed;
+    position: absolute;
     right: 160px;
     top: 100px;
   }
@@ -245,7 +245,7 @@ body {
     width: 200px;
     box-shadow: 0 18px 25px 0 rgb(237, 153, 6), 0 6px 20px 0 rgb(217, 0, 255);
     border-radius: 8px;
-    position: static;
+    position: absolute;
     top: 15px;
     right: 10px;
   }
