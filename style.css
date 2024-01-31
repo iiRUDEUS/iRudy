@@ -33,7 +33,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
 }
 .test-background {
     background-color: rgba(248, 207, 157, 0.9);
