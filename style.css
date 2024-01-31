@@ -220,7 +220,7 @@ body {
   .events {
     width: 280px;
     border-radius: 8px;
-    position: absolute;
+    position: fixed;
     right: 160px;
     top: 100px;
   }
