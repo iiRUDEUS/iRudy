@@ -15,10 +15,32 @@
     <a href="#"><i class="fa-brands fa-instagram"></i></a> 
     <a href="#"><i class="fa-solid fa-envelope"></i></a>
     <a href="#"><i class="fa-solid fa-circle-dollar-to-slot"></i></a>
-    <a href="#"><i class="fa-solid fa-bars"></i></a> 
+    <div class="mobile-container">
   </div>
 </header>
   <body>
+    <div class="topnav">
+      <a href="#home" class="active">Ayman.Abuosba!</a>
+      <div id="myLinks">
+        <a href="#news">My News</a>
+        <a href="#contact">Contact Me</a>
+        <a href="#about">About Me</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      </script>
+      
     <div class="Who-am-I"> 
       <p>Hey there ! I go by iRudy, I made this page to help my audience reach me, stay tuned, and contact me easily! So feel free to Sub to all my Socials! </p>
       <p class="Sub">Stay Tuned with my recent uploads in my Socials!</p>
@@ -98,12 +120,12 @@
       <tr style="color:crimson; ">
 <th> الاسم</th>
 <th> الصف</th>
-<th/> المدرسة (th>
+<th> المدرسة </tr>
 </tr>
 <tr style="background-color: azure;" align="center">
 <td>محمد</td>
 <td> الاول</td>
-<td/> ابن خلدون <td>
+<td> ابن خلدون </tr>
 </tr>
 <tr align="center">
 <td> أحمد </td>
